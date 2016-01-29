@@ -1,0 +1,1 @@
+<li><g:link controller="product" action="list"><g:message code="nav.products"/></g:link></li>
