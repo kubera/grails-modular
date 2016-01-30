@@ -15,17 +15,17 @@ buildscript {
 
 plugins {
     id "io.spring.dependency-management" version "0.5.4.RELEASE"
+    id "com.jfrog.bintray" version "1.2"
 }
 
 version "0.1-SNAPSHOT"
 group "athene.frontend"
 
 apply plugin: "spring-boot"
-apply plugin: "war"
 apply plugin: "asset-pipeline"
 apply plugin: 'eclipse'
 apply plugin: 'idea'
-apply plugin: "org.grails.grails-web"
+apply plugin: "org.grails.grails-plugin"
 apply plugin: "org.grails.grails-gsp"
 
 ext {
@@ -70,10 +70,6 @@ dependencies {
     runtime "org.grails.plugins:asset-pipeline"
 
     testCompile "org.grails:grails-plugin-testing"
-    testCompile "org.grails.plugins:geb"
-
-    // Note: It is recommended to update to a more robust driver (Chrome, Firefox etc.)
-    testRuntime 'org.seleniumhq.selenium:selenium-htmlunit-driver:2.44.0'
 
     console "org.grails:grails-console"
 

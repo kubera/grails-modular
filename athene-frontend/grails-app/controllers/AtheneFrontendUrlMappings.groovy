@@ -1,4 +1,4 @@
-class UrlMappings {
+class AtheneFrontendUrlMappings {
 
     static mappings = {
         "/$controller/$action?/$id?" {
@@ -7,8 +7,8 @@ class UrlMappings {
             }
         }
 
-        "/" controller: 'page'
-        "500"(view: '/error')
-        "404"(view:'/notFound')
+//        "/" controller: 'page'
+//        "500"(view: '/error')
+//        "404"(view:'/notFound')
     }
 }

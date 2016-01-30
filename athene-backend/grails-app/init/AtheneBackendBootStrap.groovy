@@ -1,5 +1,5 @@
 
-class BootStrap {
+class AtheneBackendBootStrap {
 
     def init = { servletContext ->
     }
