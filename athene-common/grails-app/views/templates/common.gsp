@@ -1,4 +1,3 @@
-<%-- File: grails-app/views/templates/homepage.gsp --%>
 <g:applyLayout name="oneblock">
     <head>
         <title>${grailsApplication.config.info.app.name}</title>

@@ -7,7 +7,7 @@ class AtheneCommonUrlMappings {
             }
         }
 
-        "/" controller: 'page'
+        "/" controller: 'common'
         "500"(view:'/error')
         "404"(view:'/notFound')
 

@@ -7,8 +7,6 @@ class AtheneFrontendUrlMappings {
             }
         }
 
-//        "/" controller: 'page'
-//        "500"(view: '/error')
-//        "404"(view:'/notFound')
+        "/" controller: 'frontend' // overrides the url root definition in athene-common
     }
 }

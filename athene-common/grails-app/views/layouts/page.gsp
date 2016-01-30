@@ -1,4 +1,3 @@
-<%-- File: grails-app/views/layout/page.gsp --%>
 <!DOCTYPE html>
 <html>
 <head>

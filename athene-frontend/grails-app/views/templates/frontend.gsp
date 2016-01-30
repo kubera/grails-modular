@@ -1,4 +1,3 @@
-<%-- File: grails-app/views/templates/homepage.gsp --%>
 <g:applyLayout name="fiveblocks">
     <head>
         <title><g:message code="title.homepage"/></title>

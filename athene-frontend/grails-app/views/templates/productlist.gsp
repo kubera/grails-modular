@@ -1,4 +1,3 @@
-<%-- File: grails-app/views/templates/productlist.gsp --%>
 <g:applyLayout name="oneblock">
     <head>
         <title><g:message code="title.product.list"/></title>

@@ -1,4 +1,3 @@
-<%-- File: grails-app/views/layout/twoblocks.gsp --%>
 <html>
     <head>
         <meta name="layout" content="page"/>

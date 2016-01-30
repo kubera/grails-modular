@@ -1,4 +1,3 @@
-<%-- File: grails-app/views/templates/productview.gsp --%>
 <g:applyLayout name="twoblocks">
     <head>
         <title>${product.title}</title>

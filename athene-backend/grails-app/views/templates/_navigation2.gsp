@@ -1,1 +1,1 @@
-<li><g:link controller="backend" action="index"><g:message code="nav.backend"/></g:link></li>
+<li><g:link controller="backend"><g:message code="nav.backend"/></g:link></li>
