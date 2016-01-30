@@ -1,0 +1,15 @@
+digraph athene {
+
+	bgcolor="#222A30"
+	edge[color="#A3BFC6"]
+	node[color="#A3BFC6", fontcolor="#A3BFC6"]
+
+	"common" [label="athene-common\ngrails [profile: web-plugin]"]
+	"frontend" [label="athene-frontend\ngrails [profile: web-plugin]"]
+	"backend" [label="athene-backend\ngrails [profile: web-plugin]"]
+	"main" [label="athene-main\ngrails [profile: web]"]
+
+	frontend -> common 
+	backend -> common 
+	main -> { frontend, backend } 
+}
